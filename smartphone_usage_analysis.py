@@ -708,7 +708,7 @@ def main():
     print("=" * 60)
     
     # Inicializar o analisador com o caminho correto do arquivo
-    file_path = '/home/lucas/Downloads/Sistema de Análise de Dados de Uso de Smartphone/mobile_usage_behavioral_analysis.csv'
+    file_path = csv_file = "mobile_usage_behavioral_analysis.csv"
     analyzer = SmartphoneUsageAnalyzer(file_path)
     
     # Executar as etapas de análise
